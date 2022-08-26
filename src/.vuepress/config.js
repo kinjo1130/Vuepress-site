@@ -80,12 +80,12 @@ export default defineUserConfig({
     navbar: [
       // NavbarItem
       {
-        text: 'Foo',
-        link: '/foo/',
+        text: 'Detail',
+        link: '/Guide/',
       },
       // NavbarGroup
       {
-        text: 'Group',
+        text: 'ALL',
         children: ['/group/foo.md', '/group/bar.md'],
       },
       // string - page file path
