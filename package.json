@@ -1,0 +1,19 @@
+{
+  "name": "Vuepress",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/Vuepress",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.50"
+  }
+}
