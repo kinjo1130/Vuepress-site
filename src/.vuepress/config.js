@@ -3,7 +3,7 @@ import { defineUserConfig, defaultTheme } from "vuepress";
 export default defineUserConfig({
   lang: "ja",
   title: "Kinjyo Shotaro",
-  description: "こんにちは",
+  description: "金城のポートフォリオです",
   theme: defaultTheme({
     // default theme config
     navbar: [
@@ -14,12 +14,13 @@ export default defineUserConfig({
       },
       // NavbarGroup
       {
-        text: "全て",
+        text: "その他",
         children: [
           {
-          text: '',
-          link: ''
-        }],
+            text: "SNS",
+            link: "/sns",
+          }
+        ],
       },
       // string - page file path
       // './components/Foo/Bar',
