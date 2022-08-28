@@ -1,26 +1,28 @@
-
-import { defineUserConfig, defaultTheme } from 'vuepress'
+import { defineUserConfig, defaultTheme } from "vuepress";
 
 export default defineUserConfig({
-  lang: 'ja',
-  title: 'Kinjyo Shotaro',
-  description: 'こんにちは',
+  lang: "ja",
+  title: "Kinjyo Shotaro",
+  description: "こんにちは",
   theme: defaultTheme({
     // default theme config
     navbar: [
       // NavbarItem
       {
-        text: 'Detail',
-        link: '/Guide/',
+        text: "詳細",
+        link: "/detail",
       },
       // NavbarGroup
       {
-        text: 'ALL',
-        children: ['/group/foo.md', '/group/bar.md'],
+        text: "全て",
+        children: [
+          {
+          text: '',
+          link: ''
+        }],
       },
       // string - page file path
       // './components/Foo/Bar',
     ],
   }),
-})
-
+});

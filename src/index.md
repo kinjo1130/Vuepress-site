@@ -4,11 +4,11 @@ externalLinkIcon: true
 # heroImage: images/1.jpeg
 navbar: true
 actions:
-  - text: 詳細はありません
-    link: /guide/using-vue.html
+  - text: 詳細はこちらへ
+    link: /detail
     type: primary
-  - text: 自己紹介なんてない
-    link: /guide/
+  - text: その他
+    link: /other/
     type: secondary
 features:
   - title: 身長
@@ -16,13 +16,13 @@ features:
   - title: 体重
     details: おそらく72kg,風呂屋で測ったが、忘れた
   - title: 特技
-    details: そんなものはないが、天パが最高に似合っている自負がある
+    details: 天パが最高に似合っている自負がある
 heroText: Kinjyo Shotaro
 footer: Made by 金城
 ---
 
 
-[Guide](./guide/using-vue.md)  
+<!-- [Guide](./guide/using-vue.md)  
 [外部へ飛ぶ](https://github.com/vuepress/vuepress-next)  
 VuePress 2 is out :tada: !
 
@@ -37,4 +37,4 @@ export default defineUserConfig({
     logo: 'https://vuejs.org/images/logo.png',
   }),
 })
-```
+``` -->
