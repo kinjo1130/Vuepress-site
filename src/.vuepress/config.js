@@ -4,6 +4,7 @@ export default defineUserConfig({
   lang: "ja",
   title: "Kinjyo Shotaro",
   description: "金城のポートフォリオです",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   theme: defaultTheme({
     // default theme config
     navbar: [
