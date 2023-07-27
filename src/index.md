@@ -11,13 +11,11 @@ actions:
     link: /other/
     type: secondary
 features:
-  - title: 身長
-    details: 172cm,あまり面白味のない身長だ
-  - title: 体重
-    details: おそらく72kg,風呂屋で測ったが、忘れた
+  - title: 趣味
+    details: バイク・車・スノボ・テニス・アプリ開発
   - title: 特技
-    details: 天パが最高に似合っている自負がある
-heroText: Kinjyo Shotaro
+    details: フロントで爆速でアプリを構成するのが得意です。
+heroText: Kinjo Shotaro
 footer: Made by 金城
 ---
 
