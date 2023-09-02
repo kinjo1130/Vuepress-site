@@ -19,6 +19,9 @@ description: kinjyo's detail
   - 主にフロントエンドエンジニアとして、NextjsやNest.jsを使った開発をしていました。
 - [株式会社ohmygod](https://ohmygod.jp/) 2023/2 ~ 現在
   - 自社開発や受託開発の開発を行っています。
+- [株式会社BuySell Technologies](https://buysell-technologies.com/) 2023/8 ~ 2023/9
+  - サマーインターンに参加
+  - Goを使って、API実装やReact+Viteのフロントエンドの実装を行いました
 
 ## スキル
 - **TypeScript**
